@@ -12,5 +12,5 @@ library(devtools)
 install_github("robjohnnoble/demonanalysis")
 library(demonanalysis)
 
-plot_figure2("FissionModel")
+plot_figure2("FissionModel2046")
 ```
