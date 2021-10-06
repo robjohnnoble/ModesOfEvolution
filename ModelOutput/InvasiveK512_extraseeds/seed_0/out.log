@@ -1,0 +1,1568 @@
+Sender: LSF System <lsfadmin@eu-ms-024-13>
+Subject: Job 85736386: <./../../prog/demon ../../all_results/20190219_caseC/log2_deme_carrying_capacity_1/migration_edge_only_0/s_driver_birth_1/seed_0/ init_conf_file.dat> in cluster <euler> Done
+
+Job <./../../prog/demon ../../all_results/20190219_caseC/log2_deme_carrying_capacity_1/migration_edge_only_0/s_driver_birth_1/seed_0/ init_conf_file.dat> was submitted from host <eu-c7-111-11> by user <dburri> in cluster <euler> at Tue Feb 19 21:50:42 2019
+Job was executed on host(s) <eu-ms-024-13>, in queue <normal.4h>, as user <dburri> in cluster <euler> at Tue Feb 19 22:06:11 2019
+</cluster/home/dburri> was used as the home directory.
+</cluster/work/bewi/members/dburri/demon/file_system_creation/dev> was used as the working directory.
+Started at Tue Feb 19 22:06:11 2019
+Terminated at Tue Feb 19 22:26:52 2019
+Results reported at Tue Feb 19 22:26:52 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./../../prog/demon ../../all_results/20190219_caseC/log2_deme_carrying_capacity_1/migration_edge_only_0/s_driver_birth_1/seed_0/ init_conf_file.dat
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1238.68 sec.
+    Max Memory :                                 1043 MB
+    Average Memory :                             648.02 MB
+    Total Requested Memory :                     10000.00 MB
+    Delta Memory :                               8957.00 MB
+    Max Swap :                                   -
+    Max Processes :                              12
+    Max Threads :                                13
+    Run time :                                   1259 sec.
+    Turnaround time :                            2170 sec.
+
+The output (if any) follows:
+
+Done reading parameters
+max_clones 1000000; max_genotypes 80000000; max_driver_genotypes 3999; max_demes 20736
+dim_grid 144; matrix_max -1; max_distinct_allele_freqs 1000000
+max_clones_per_deme 615; max_bintree_clone_elements_per_deme 339
+Assigned memory
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+Seed = 3000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+10 generations, 9643 iterations
+1 cells, 1 clones, 1 genotypes, 1 driver genotypes
+5 matrix columns; 9 genotypes ever created
+1 demes (1 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 2.000000, 0.000000
+Driver diversity = 1.000000 (alpha = 1.000000, beta = 1.000000)
+Mean birth, death, mig rates = 1.000000, 100.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 100.000000
+----------------------------------------------------------------
+26 births, 26 deaths, 0 migrations, 8 mutations
+4796 normal cell births, 4795 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+
+No more cells
+
+dim_grid 144, max_demes 20736, num_demes = 1, init_diameter = 1
+clone bintrees in use; max_pop 1000000; max_genotypes 80000000
+Initialised
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+10 generations, 9313 iterations
+30 cells, 7 clones, 7 genotypes, 1 driver genotypes
+11 matrix columns; 16 genotypes ever created
+1 demes (1 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 2.466667, 0.000000
+Driver diversity = 1.000000 (alpha = 2.142857, beta = 0.466667)
+Mean birth, death, mig rates = 1.000000, 100.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 100.000000
+----------------------------------------------------------------
+75 births, 46 deaths, 0 migrations, 15 mutations
+4582 normal cell births, 4610 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+20 generations, 18687 iterations
+53 cells, 26 clones, 26 genotypes, 1 driver genotypes
+43 matrix columns; 92 genotypes ever created
+1 demes (1 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 3.962264, 0.000000
+Driver diversity = 1.000000 (alpha = 14.706367, beta = 0.067998)
+Mean birth, death, mig rates = 1.000000, 100.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 100.000000
+----------------------------------------------------------------
+399 births, 376 deaths, 0 migrations, 76 mutations
+4288 normal cell births, 4311 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+30 generations, 34775 iterations
+179 cells, 60 clones, 60 genotypes, 1 driver genotypes
+129 matrix columns; 320 genotypes ever created
+3 demes (2 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 6.296089, 0.000000
+Driver diversity = 1.000000 (alpha = 25.813637, beta = 0.038739)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 37.776141
+----------------------------------------------------------------
+1200 births, 1074 deaths, 3 migrations, 228 mutations
+6844 normal cell births, 6970 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+40 generations, 79777 iterations
+339 cells, 112 clones, 111 genotypes, 1 driver genotypes
+293 matrix columns; 790 genotypes ever created
+5 demes (2 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 7.802360, 0.000000
+Driver diversity = 1.000000 (alpha = 39.487331, beta = 0.025325)
+Mean birth, death, mig rates = 1.000000, 3.834808, 0.001458
+Mean normal birth, death rates = 0.900000, 22.502250
+----------------------------------------------------------------
+2461 births, 2301 deaths, 7 migrations, 470 mutations
+20040 normal cell births, 20200 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+50 generations, 126449 iterations
+492 cells, 171 clones, 170 genotypes, 1 driver genotypes
+538 matrix columns; 1597 genotypes ever created
+5 demes (2 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 10.050813, 0.000000
+Driver diversity = 1.000000 (alpha = 70.337563, beta = 0.014217)
+Mean birth, death, mig rates = 1.000000, 93.089431, 0.001458
+Mean normal birth, death rates = 0.900000, 2.658289
+----------------------------------------------------------------
+4321 births, 4168 deaths, 5 migrations, 807 mutations
+19015 normal cell births, 19168 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+60 generations, 173719 iterations
+653 cells, 242 clones, 240 genotypes, 1 driver genotypes
+880 matrix columns; 2626 genotypes ever created
+5 demes (5 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 11.683002, 0.000000
+Driver diversity = 1.000000 (alpha = 70.164688, beta = 0.014252)
+Mean birth, death, mig rates = 1.000000, 0.459418, 0.001458
+Mean normal birth, death rates = 0.900000, 26.729560
+----------------------------------------------------------------
+5579 births, 5418 deaths, 12 migrations, 1029 mutations
+18056 normal cell births, 18217 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+70 generations, 232869 iterations
+938 cells, 343 clones, 337 genotypes, 2 driver genotypes
+1359 matrix columns; 4140 genotypes ever created
+7 demes (6 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 13.597015, 0.004264
+Driver diversity = 1.008565 (alpha = 65.072777, beta = 0.015499)
+Mean birth, death, mig rates = 1.000082, 54.690832, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+7933 births, 7648 deaths, 20 migrations, 1514 mutations
+21642 normal cell births, 21927 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+80 generations, 312275 iterations
+1388 cells, 520 clones, 517 genotypes, 1 driver genotypes
+2074 matrix columns; 6355 genotypes ever created
+9 demes (6 not empty), 1 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 15.494957, 0.000000
+Driver diversity = 1.000000 (alpha = 65.749100, beta = 0.015209)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 15.926731
+----------------------------------------------------------------
+11319 births, 10869 deaths, 17 migrations, 2215 mutations
+28384 normal cell births, 28834 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+90 generations, 423831 iterations
+1860 cells, 713 clones, 710 genotypes, 1 driver genotypes
+3047 matrix columns; 9332 genotypes ever created
+14 demes (8 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 17.358603, 0.000000
+Driver diversity = 1.000000 (alpha = 77.218346, beta = 0.012950)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 9.662837
+----------------------------------------------------------------
+15818 births, 15346 deaths, 26 migrations, 2977 mutations
+39960 normal cell births, 40432 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+100 generations, 556165 iterations
+2245 cells, 894 clones, 888 genotypes, 1 driver genotypes
+4266 matrix columns; 13194 genotypes ever created
+14 demes (11 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 19.026281, 0.000000
+Driver diversity = 1.000000 (alpha = 80.679054, beta = 0.012395)
+Mean birth, death, mig rates = 1.000000, 0.178174, 0.001458
+Mean normal birth, death rates = 0.900000, 10.337124
+----------------------------------------------------------------
+20488 births, 20103 deaths, 34 migrations, 3862 mutations
+45679 normal cell births, 46064 normal cell deaths
+----------------------------------------------------------------
+0 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+110 generations, 696259 iterations
+2553 cells, 1001 clones, 997 genotypes, 1 driver genotypes
+5725 matrix columns; 17857 genotypes ever created
+15 demes (10 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 21.229534, 0.000000
+Driver diversity = 1.000000 (alpha = 89.867897, beta = 0.011127)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 10.003900
+----------------------------------------------------------------
+24177 births, 23869 deaths, 29 migrations, 4663 mutations
+45870 normal cell births, 46178 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+120 generations, 839073 iterations
+2821 cells, 1062 clones, 1056 genotypes, 1 driver genotypes
+7286 matrix columns; 22946 genotypes ever created
+15 demes (12 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 23.291386, 0.000000
+Driver diversity = 1.000000 (alpha = 87.008942, beta = 0.011493)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 10.555556
+----------------------------------------------------------------
+26794 births, 26526 deaths, 37 migrations, 5089 mutations
+44613 normal cell births, 44881 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+130 generations, 986189 iterations
+3140 cells, 1244 clones, 1240 genotypes, 1 driver genotypes
+9086 matrix columns; 28612 genotypes ever created
+17 demes (12 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 26.099682, 0.000000
+Driver diversity = 1.000000 (alpha = 81.477921, beta = 0.012273)
+Mean birth, death, mig rates = 1.000000, 3.343949, 0.001458
+Mean normal birth, death rates = 0.900000, 7.331536
+----------------------------------------------------------------
+29675 births, 29356 deaths, 35 migrations, 5666 mutations
+43883 normal cell births, 44202 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+140 generations, 1148076 iterations
+3459 cells, 1376 clones, 1370 genotypes, 1 driver genotypes
+11015 matrix columns; 34775 genotypes ever created
+17 demes (15 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 27.538883, 0.000000
+Driver diversity = 1.000000 (alpha = 78.017319, beta = 0.012818)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+32283 births, 31964 deaths, 56 migrations, 6163 mutations
+48660 normal cell births, 48980 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+150 generations, 1329693 iterations
+4009 cells, 1519 clones, 1518 genotypes, 1 driver genotypes
+13150 matrix columns; 41841 genotypes ever created
+21 demes (15 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 30.105263, 0.000000
+Driver diversity = 1.000000 (alpha = 80.354355, beta = 0.012445)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 7.606762
+----------------------------------------------------------------
+37220 births, 36670 deaths, 44 migrations, 7066 mutations
+53589 normal cell births, 54138 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+160 generations, 1536669 iterations
+4718 cells, 1789 clones, 1779 genotypes, 1 driver genotypes
+15746 matrix columns; 50130 genotypes ever created
+22 demes (17 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 32.895931, 0.000000
+Driver diversity = 1.000000 (alpha = 80.656891, beta = 0.012398)
+Mean birth, death, mig rates = 1.000000, 10.873251, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+43553 births, 42844 deaths, 61 migrations, 8289 mutations
+59935 normal cell births, 60644 normal cell deaths
+----------------------------------------------------------------
+1 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+170 generations, 1752386 iterations
+5176 cells, 1942 clones, 1923 genotypes, 1 driver genotypes
+18550 matrix columns; 59362 genotypes ever created
+23 demes (19 not empty), 2 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 34.611668, 0.000000
+Driver diversity = 1.000000 (alpha = 83.779991, beta = 0.011936)
+Mean birth, death, mig rates = 1.000000, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+48932 births, 48474 deaths, 75 migrations, 9232 mutations
+58926 normal cell births, 59385 normal cell deaths
+----------------------------------------------------------------
+2 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+180 generations, 1986067 iterations
+5908 cells, 2332 clones, 2316 genotypes, 1 driver genotypes
+21796 matrix columns; 69862 genotypes ever created
+28 demes (22 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 36.555180, 0.000000
+Driver diversity = 1.000000 (alpha = 94.440697, beta = 0.010589)
+Mean birth, death, mig rates = 1.000000, 0.118483, 0.001458
+Mean normal birth, death rates = 0.900000, 6.003085
+----------------------------------------------------------------
+55525 births, 54793 deaths, 74 migrations, 10500 mutations
+61316 normal cell births, 62047 normal cell deaths
+----------------------------------------------------------------
+2 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+190 generations, 2273943 iterations
+6684 cells, 2565 clones, 2554 genotypes, 3 driver genotypes
+25432 matrix columns; 81571 genotypes ever created
+31 demes (22 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 38.565678, 0.001047
+Driver diversity = 1.002097 (alpha = 86.159760, beta = 0.011631)
+Mean birth, death, mig rates = 1.000060, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 5.582762
+----------------------------------------------------------------
+62280 births, 61504 deaths, 90 migrations, 11709 mutations
+81658 normal cell births, 82434 normal cell deaths
+----------------------------------------------------------------
+2 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+200 generations, 2578007 iterations
+7543 cells, 2909 clones, 2891 genotypes, 1 driver genotypes
+29636 matrix columns; 95223 genotypes ever created
+35 demes (25 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 40.651066, 0.000000
+Driver diversity = 1.000000 (alpha = 90.428848, beta = 0.011058)
+Mean birth, death, mig rates = 1.000000, 6.801008, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+71243 births, 70384 deaths, 107 migrations, 13652 mutations
+80789 normal cell births, 81648 normal cell deaths
+----------------------------------------------------------------
+3 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+210 generations, 2915263 iterations
+8031 cells, 3088 clones, 3070 genotypes, 2 driver genotypes
+34114 matrix columns; 109866 genotypes ever created
+35 demes (25 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 42.780102, 0.000125
+Driver diversity = 1.000249 (alpha = 92.361694, beta = 0.010830)
+Mean birth, death, mig rates = 1.000006, 5.428963, 0.001458
+Mean normal birth, death rates = 0.900000, 0.778564
+----------------------------------------------------------------
+77743 births, 77255 deaths, 107 migrations, 14643 mutations
+90885 normal cell births, 91373 normal cell deaths
+----------------------------------------------------------------
+3 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+220 generations, 3267341 iterations
+8668 cells, 3382 clones, 3369 genotypes, 2 driver genotypes
+39169 matrix columns; 125930 genotypes ever created
+37 demes (26 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 44.851406, 0.000115
+Driver diversity = 1.000231 (alpha = 93.147736, beta = 0.010738)
+Mean birth, death, mig rates = 1.000006, 5.779880, 0.001458
+Mean normal birth, death rates = 0.900000, 0.116766
+----------------------------------------------------------------
+83787 births, 83150 deaths, 103 migrations, 16064 mutations
+92252 normal cell births, 92889 normal cell deaths
+----------------------------------------------------------------
+3 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+230 generations, 3627147 iterations
+9631 cells, 3717 clones, 3695 genotypes, 1 driver genotypes
+44534 matrix columns; 143304 genotypes ever created
+38 demes (30 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 46.613228, 0.000000
+Driver diversity = 1.000000 (alpha = 87.540504, beta = 0.011423)
+Mean birth, death, mig rates = 1.000000, 5.326550, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+91234 births, 90271 deaths, 160 migrations, 17374 mutations
+88669 normal cell births, 89632 normal cell deaths
+----------------------------------------------------------------
+4 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+240 generations, 4016009 iterations
+10667 cells, 4137 clones, 4122 genotypes, 1 driver genotypes
+50553 matrix columns; 162863 genotypes ever created
+42 demes (31 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 48.851597, 0.000000
+Driver diversity = 1.000000 (alpha = 88.597481, beta = 0.011287)
+Mean birth, death, mig rates = 1.000000, 0.403112, 0.001458
+Mean normal birth, death rates = 0.900000, 4.336593
+----------------------------------------------------------------
+101233 births, 100197 deaths, 156 migrations, 19559 mutations
+93198 normal cell births, 94234 normal cell deaths
+----------------------------------------------------------------
+4 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+250 generations, 4425559 iterations
+11710 cells, 4510 clones, 4485 genotypes, 1 driver genotypes
+57052 matrix columns; 184155 genotypes ever created
+43 demes (35 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 51.049530, 0.000000
+Driver diversity = 1.000000 (alpha = 89.654945, beta = 0.011154)
+Mean birth, death, mig rates = 1.000000, 0.008540, 0.001458
+Mean normal birth, death rates = 0.900000, 4.967498
+----------------------------------------------------------------
+111402 births, 110359 deaths, 161 migrations, 21292 mutations
+93373 normal cell births, 94416 normal cell deaths
+----------------------------------------------------------------
+5 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+260 generations, 4858911 iterations
+12535 cells, 4866 clones, 4845 genotypes, 1 driver genotypes
+64063 matrix columns; 207080 genotypes ever created
+47 demes (36 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 53.162506, 0.000000
+Driver diversity = 1.000000 (alpha = 91.569260, beta = 0.010921)
+Mean birth, death, mig rates = 1.000000, 4.092541, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+120559 births, 119734 deaths, 192 migrations, 22925 mutations
+96117 normal cell births, 96942 normal cell deaths
+----------------------------------------------------------------
+5 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+270 generations, 5318140 iterations
+13273 cells, 5146 clones, 5135 genotypes, 2 driver genotypes
+71642 matrix columns; 231682 genotypes ever created
+48 demes (40 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 55.208920, 0.000377
+Driver diversity = 1.000754 (alpha = 92.646240, beta = 0.010802)
+Mean birth, death, mig rates = 1.000000, 5.740978, 0.001458
+Mean normal birth, death rates = 0.900000, 2.335250
+----------------------------------------------------------------
+128528 births, 127790 deaths, 181 migrations, 24602 mutations
+101087 normal cell births, 101824 normal cell deaths
+----------------------------------------------------------------
+6 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+280 generations, 5795025 iterations
+14172 cells, 5394 clones, 5369 genotypes, 2 driver genotypes
+79512 matrix columns; 257963 genotypes ever created
+50 demes (41 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 56.750492, 0.000494
+Driver diversity = 1.000988 (alpha = 92.629837, beta = 0.010806)
+Mean birth, death, mig rates = 1.000000, 3.471634, 0.001458
+Mean normal birth, death rates = 0.900000, 0.183743
+----------------------------------------------------------------
+137547 births, 136648 deaths, 211 migrations, 26281 mutations
+100895 normal cell births, 101795 normal cell deaths
+----------------------------------------------------------------
+6 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+290 generations, 6293503 iterations
+15255 cells, 5859 clones, 5834 genotypes, 2 driver genotypes
+88236 matrix columns; 286148 genotypes ever created
+55 demes (45 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 58.347820, 0.002229
+Driver diversity = 1.004467 (alpha = 88.695633, beta = 0.011325)
+Mean birth, death, mig rates = 1.000001, 3.362832, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+147576 births, 146493 deaths, 202 migrations, 28185 mutations
+101663 normal cell births, 102746 normal cell deaths
+----------------------------------------------------------------
+7 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+300 generations, 6845154 iterations
+16407 cells, 6343 clones, 6318 genotypes, 2 driver genotypes
+97459 matrix columns; 316448 genotypes ever created
+57 demes (47 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 60.180595, 0.003108
+Driver diversity = 1.006236 (alpha = 89.578934, beta = 0.011233)
+Mean birth, death, mig rates = 1.000001, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+157996 births, 156844 deaths, 224 migrations, 30300 mutations
+117829 normal cell births, 118982 normal cell deaths
+----------------------------------------------------------------
+8 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+310 generations, 7418597 iterations
+17707 cells, 6911 clones, 6878 genotypes, 2 driver genotypes
+107319 matrix columns; 348786 genotypes ever created
+60 demes (51 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 62.096119, 0.005930
+Driver diversity = 1.011930 (alpha = 94.307655, beta = 0.010730)
+Mean birth, death, mig rates = 1.000003, 2.162986, 0.001458
+Mean normal birth, death rates = 0.900000, 0.998924
+----------------------------------------------------------------
+171266 births, 169966 deaths, 267 migrations, 32338 mutations
+115456 normal cell births, 116755 normal cell deaths
+----------------------------------------------------------------
+8 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+320 generations, 8022577 iterations
+19158 cells, 7476 clones, 7446 genotypes, 4 driver genotypes
+118143 matrix columns; 383760 genotypes ever created
+62 demes (53 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 64.329208, 0.008195
+Driver diversity = 1.016533 (alpha = 92.272820, beta = 0.011017)
+Mean birth, death, mig rates = 1.000091, 2.677733, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+184060 births, 182609 deaths, 269 migrations, 34974 mutations
+117930 normal cell births, 119381 normal cell deaths
+----------------------------------------------------------------
+9 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+330 generations, 8650065 iterations
+20387 cells, 7779 clones, 7752 genotypes, 3 driver genotypes
+129336 matrix columns; 421019 genotypes ever created
+64 demes (54 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 66.259674, 0.011135
+Driver diversity = 1.022527 (alpha = 90.261497, beta = 0.011328)
+Mean birth, death, mig rates = 1.000097, 7.509688, 0.001458
+Mean normal birth, death rates = 0.900000, 0.064599
+----------------------------------------------------------------
+197127 births, 195898 deaths, 276 migrations, 37259 mutations
+116618 normal cell births, 117845 normal cell deaths
+----------------------------------------------------------------
+10 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+340 generations, 9292272 iterations
+21490 cells, 8325 clones, 8294 genotypes, 4 driver genotypes
+141309 matrix columns; 460569 genotypes ever created
+68 demes (60 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 68.328476, 0.012424
+Driver diversity = 1.025196 (alpha = 95.400368, beta = 0.010746)
+Mean birth, death, mig rates = 1.000359, 4.774314, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+208896 births, 207793 deaths, 329 migrations, 39550 mutations
+112207 normal cell births, 113311 normal cell deaths
+----------------------------------------------------------------
+11 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+350 generations, 9969473 iterations
+22484 cells, 8722 clones, 8682 genotypes, 4 driver genotypes
+154042 matrix columns; 502631 genotypes ever created
+69 demes (62 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 70.430130, 0.019080
+Driver diversity = 1.039091 (alpha = 95.779518, beta = 0.010849)
+Mean birth, death, mig rates = 1.001904, 0.040028, 0.001458
+Mean normal birth, death rates = 0.900000, 3.923706
+----------------------------------------------------------------
+219986 births, 218992 deaths, 326 migrations, 42062 mutations
+118614 normal cell births, 119609 normal cell deaths
+----------------------------------------------------------------
+12 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+360 generations, 10675160 iterations
+23496 cells, 9092 clones, 9037 genotypes, 6 driver genotypes
+167026 matrix columns; 545755 genotypes ever created
+73 demes (64 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 72.681778, 0.029154
+Driver diversity = 1.060501 (alpha = 95.672745, beta = 0.011085)
+Mean birth, death, mig rates = 1.003594, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+229586 births, 228574 deaths, 339 migrations, 43124 mutations
+123257 normal cell births, 124270 normal cell deaths
+----------------------------------------------------------------
+13 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+370 generations, 11413013 iterations
+24591 cells, 9598 clones, 9540 genotypes, 6 driver genotypes
+180997 matrix columns; 591434 genotypes ever created
+78 demes (69 not empty), 3 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 74.808548, 0.026392
+Driver diversity = 1.054459 (alpha = 96.157608, beta = 0.010966)
+Mean birth, death, mig rates = 1.004363, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 3.342891
+----------------------------------------------------------------
+241257 births, 240162 deaths, 339 migrations, 45679 mutations
+127670 normal cell births, 128764 normal cell deaths
+----------------------------------------------------------------
+14 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+380 generations, 12215019 iterations
+25860 cells, 9841 clones, 9798 genotypes, 5 driver genotypes
+195727 matrix columns; 639895 genotypes ever created
+84 demes (74 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 76.949265, 0.027920
+Driver diversity = 1.057625 (alpha = 90.463661, beta = 0.011691)
+Mean birth, death, mig rates = 1.005118, 1.983759, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+252852 births, 251583 deaths, 374 migrations, 48461 mutations
+148151 normal cell births, 149420 normal cell deaths
+----------------------------------------------------------------
+15 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+390 generations, 13075053 iterations
+27676 cells, 10679 clones, 10634 genotypes, 6 driver genotypes
+211503 matrix columns; 691350 genotypes ever created
+89 demes (76 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 78.884666, 0.045780
+Driver diversity = 1.096491 (alpha = 92.798767, beta = 0.011816)
+Mean birth, death, mig rates = 1.008655, 1.853592, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+268649 births, 266833 deaths, 383 migrations, 51455 mutations
+161368 normal cell births, 163184 normal cell deaths
+----------------------------------------------------------------
+16 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+400 generations, 13987609 iterations
+29908 cells, 11708 clones, 11665 genotypes, 9 driver genotypes
+228650 matrix columns; 747241 genotypes ever created
+95 demes (82 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 81.143440, 0.077605
+Driver diversity = 1.169614 (alpha = 92.937744, beta = 0.012585)
+Mean birth, death, mig rates = 1.014954, 1.715260, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+292724 births, 290492 deaths, 416 migrations, 55891 mutations
+163554 normal cell births, 165786 normal cell deaths
+----------------------------------------------------------------
+17 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+410 generations, 14971817 iterations
+32182 cells, 12604 clones, 12540 genotypes, 10 driver genotypes
+247221 matrix columns; 807976 genotypes ever created
+100 demes (90 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 83.507614, 0.110372
+Driver diversity = 1.252954 (alpha = 94.511421, beta = 0.013257)
+Mean birth, death, mig rates = 1.025667, 0.027966, 0.001458
+Mean normal birth, death rates = 0.900000, 2.649982
+----------------------------------------------------------------
+317279 births, 315005 deaths, 471 migrations, 60735 mutations
+174825 normal cell births, 177099 normal cell deaths
+----------------------------------------------------------------
+19 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+420 generations, 16000637 iterations
+35547 cells, 13712 clones, 13653 genotypes, 10 driver genotypes
+267642 matrix columns; 874923 genotypes ever created
+105 demes (98 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 86.085464, 0.177427
+Driver diversity = 1.445712 (alpha = 91.115784, beta = 0.015867)
+Mean birth, death, mig rates = 1.046194, 0.984612, 0.001458
+Mean normal birth, death rates = 0.900000, 0.894916
+----------------------------------------------------------------
+350098 births, 346733 deaths, 505 migrations, 66947 mutations
+164312 normal cell births, 167677 normal cell deaths
+----------------------------------------------------------------
+20 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+430 generations, 17124680 iterations
+38462 cells, 14717 clones, 14654 genotypes, 10 driver genotypes
+290207 matrix columns; 949131 genotypes ever created
+115 demes (102 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 89.497505, 0.258125
+Driver diversity = 1.731106 (alpha = 87.794868, beta = 0.019718)
+Mean birth, death, mig rates = 1.071601, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+390178 births, 387263 deaths, 572 migrations, 74208 mutations
+171843 normal cell births, 174759 normal cell deaths
+----------------------------------------------------------------
+22 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+440 generations, 18348528 iterations
+41973 cells, 16224 clones, 16145 genotypes, 12 driver genotypes
+315618 matrix columns; 1032158 genotypes ever created
+118 demes (103 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 92.641029, 0.329045
+Driver diversity = 2.047932 (alpha = 92.104019, beta = 0.022235)
+Mean birth, death, mig rates = 1.101017, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+436535 births, 433024 deaths, 640 migrations, 83027 mutations
+175389 normal cell births, 178900 normal cell deaths
+----------------------------------------------------------------
+24 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+450 generations, 19679730 iterations
+45099 cells, 17452 clones, 17369 genotypes, 10 driver genotypes
+343931 matrix columns; 1125123 genotypes ever created
+130 demes (114 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 95.599037, 0.393179
+Driver diversity = 2.384939 (alpha = 93.904137, beta = 0.025398)
+Mean birth, death, mig rates = 1.132553, 1.013326, 0.001458
+Mean normal birth, death rates = 0.900000, 2.651074
+----------------------------------------------------------------
+486993 births, 483867 deaths, 716 migrations, 92965 mutations
+178609 normal cell births, 181733 normal cell deaths
+----------------------------------------------------------------
+26 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+460 generations, 21138713 iterations
+48554 cells, 18667 clones, 18576 genotypes, 8 driver genotypes
+375203 matrix columns; 1227947 genotypes ever created
+136 demes (123 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 99.021317, 0.502080
+Driver diversity = 3.024540 (alpha = 91.370659, beta = 0.033102)
+Mean birth, death, mig rates = 1.186320, 2.125469, 0.001458
+Mean normal birth, death rates = 0.900000, 2.405009
+----------------------------------------------------------------
+539637 births, 536182 deaths, 833 migrations, 102824 mutations
+189855 normal cell births, 193309 normal cell deaths
+----------------------------------------------------------------
+28 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+470 generations, 22778726 iterations
+53142 cells, 20359 clones, 20245 genotypes, 11 driver genotypes
+411247 matrix columns; 1346358 genotypes ever created
+148 demes (136 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 103.483063, 0.646946
+Driver diversity = 3.791363 (alpha = 91.441307, beta = 0.041462)
+Mean birth, death, mig rates = 1.262686, 0.000000, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+625644 births, 621056 deaths, 956 migrations, 118411 mutations
+194361 normal cell births, 198952 normal cell deaths
+----------------------------------------------------------------
+30 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+480 generations, 24654075 iterations
+59802 cells, 23052 clones, 22963 genotypes, 11 driver genotypes
+454050 matrix columns; 1484727 genotypes ever created
+162 demes (149 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 108.363235, 0.784071
+Driver diversity = 4.116197 (alpha = 90.472023, beta = 0.045497)
+Mean birth, death, mig rates = 1.336508, 1.724023, 0.001458
+Mean normal birth, death rates = 0.900000, 2.194859
+----------------------------------------------------------------
+728008 births, 721348 deaths, 1042 migrations, 138369 mutations
+209668 normal cell births, 216325 normal cell deaths
+----------------------------------------------------------------
+33 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+490 generations, 26794885 iterations
+68191 cells, 26370 clones, 26232 genotypes, 11 driver genotypes
+504998 matrix columns; 1650315 genotypes ever created
+175 demes (164 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 113.046089, 0.912760
+Driver diversity = 4.113304 (alpha = 93.161644, beta = 0.044152)
+Mean birth, death, mig rates = 1.399487, 1.262630, 0.001458
+Mean normal birth, death rates = 0.900000, 3.166449
+----------------------------------------------------------------
+871053 births, 862664 deaths, 1315 migrations, 165588 mutations
+199352 normal cell births, 207741 normal cell deaths
+----------------------------------------------------------------
+37 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+500 generations, 29282013 iterations
+76856 cells, 29423 clones, 29307 genotypes, 15 driver genotypes
+564857 matrix columns; 1845430 genotypes ever created
+199 demes (180 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 117.339958, 0.993768
+Driver diversity = 4.030306 (alpha = 92.936844, beta = 0.043366)
+Mean birth, death, mig rates = 1.435731, 0.002602, 0.001458
+Mean normal birth, death rates = 0.900000, 2.041305
+----------------------------------------------------------------
+1026684 births, 1018019 deaths, 1439 migrations, 195115 mutations
+216879 normal cell births, 225546 normal cell deaths
+----------------------------------------------------------------
+41 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+510 generations, 32165821 iterations
+87293 cells, 33590 clones, 33430 genotypes, 14 driver genotypes
+635328 matrix columns; 2074258 genotypes ever created
+222 demes (205 not empty), 4 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 122.270821, 1.088770
+Driver diversity = 3.705275 (alpha = 92.477928, beta = 0.040067)
+Mean birth, death, mig rates = 1.481985, 1.206282, 0.001458
+Mean normal birth, death rates = 0.900000, 1.842724
+----------------------------------------------------------------
+1203819 births, 1193382 deaths, 1812 migrations, 228828 mutations
+238086 normal cell births, 248521 normal cell deaths
+----------------------------------------------------------------
+45 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+520 generations, 35459081 iterations
+99709 cells, 38422 clones, 38258 genotypes, 15 driver genotypes
+716524 matrix columns; 2338305 genotypes ever created
+253 demes (234 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 126.055984, 1.142515
+Driver diversity = 3.528656 (alpha = 92.347168, beta = 0.038211)
+Mean birth, death, mig rates = 1.505614, 0.868527, 0.001458
+Mean normal birth, death rates = 0.900000, 2.256118
+----------------------------------------------------------------
+1389145 births, 1376729 deaths, 2069 migrations, 264047 mutations
+257485 normal cell births, 269901 normal cell deaths
+----------------------------------------------------------------
+51 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+530 generations, 39223328 iterations
+114671 cells, 43808 clones, 43568 genotypes, 20 driver genotypes
+810915 matrix columns; 2646971 genotypes ever created
+278 demes (265 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 129.913513, 1.217396
+Driver diversity = 3.439870 (alpha = 93.083511, beta = 0.036955)
+Mean birth, death, mig rates = 1.537000, 1.357798, 0.001458
+Mean normal birth, death rates = 0.900000, 1.789006
+----------------------------------------------------------------
+1628753 births, 1613791 deaths, 2366 migrations, 308666 mutations
+253371 normal cell births, 268332 normal cell deaths
+----------------------------------------------------------------
+58 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+540 generations, 43511353 iterations
+131041 cells, 50394 clones, 50164 genotypes, 27 driver genotypes
+922032 matrix columns; 3009653 genotypes ever created
+310 demes (295 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 133.751663, 1.284644
+Driver diversity = 3.417728 (alpha = 93.151253, beta = 0.036690)
+Mean birth, death, mig rates = 1.565848, 1.957403, 0.001458
+Mean normal birth, death rates = 0.900000, 0.000000
+----------------------------------------------------------------
+1901835 births, 1885465 deaths, 2807 migrations, 362682 mutations
+242178 normal cell births, 258547 normal cell deaths
+----------------------------------------------------------------
+66 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+550 generations, 48481047 iterations
+151371 cells, 58719 clones, 58436 genotypes, 29 driver genotypes
+1052089 matrix columns; 3432968 genotypes ever created
+353 demes (342 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 137.766312, 1.345278
+Driver diversity = 3.504301 (alpha = 95.743050, beta = 0.036601)
+Mean birth, death, mig rates = 1.588763, 1.696494, 0.001458
+Mean normal birth, death rates = 0.900000, 3.482909
+----------------------------------------------------------------
+2227722 births, 2207392 deaths, 3265 migrations, 423315 mutations
+257126 normal cell births, 277454 normal cell deaths
+----------------------------------------------------------------
+76 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+560 generations, 54215469 iterations
+173297 cells, 66597 clones, 66272 genotypes, 29 driver genotypes
+1202813 matrix columns; 3925287 genotypes ever created
+400 demes (379 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 141.355713, 1.397889
+Driver diversity = 3.708571 (alpha = 93.561317, beta = 0.039638)
+Mean birth, death, mig rates = 1.608924, 1.571868, 0.001458
+Mean normal birth, death rates = 0.900000, 2.751507
+----------------------------------------------------------------
+2587737 births, 2565811 deaths, 3825 migrations, 492319 mutations
+279474 normal cell births, 301400 normal cell deaths
+----------------------------------------------------------------
+88 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+570 generations, 60799174 iterations
+197420 cells, 76130 clones, 75754 genotypes, 28 driver genotypes
+1378253 matrix columns; 4496279 genotypes ever created
+450 demes (439 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 145.187729, 1.443648
+Driver diversity = 3.930328 (alpha = 94.666420, beta = 0.041518)
+Mean birth, death, mig rates = 1.631235, 1.566711, 0.001458
+Mean normal birth, death rates = 0.900000, 3.064751
+----------------------------------------------------------------
+2999063 births, 2974940 deaths, 4336 migrations, 570992 mutations
+292790 normal cell births, 316912 normal cell deaths
+----------------------------------------------------------------
+101 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+580 generations, 68356699 iterations
+224622 cells, 86745 clones, 86323 genotypes, 39 driver genotypes
+1580630 matrix columns; 5157359 genotypes ever created
+505 demes (491 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 148.706909, 1.493607
+Driver diversity = 4.206857 (alpha = 94.666130, beta = 0.044439)
+Mean birth, death, mig rates = 1.655386, 1.582214, 0.001458
+Mean normal birth, death rates = 0.900000, 0.109000
+----------------------------------------------------------------
+3473129 births, 3445927 deaths, 5046 migrations, 661080 mutations
+305633 normal cell births, 332836 normal cell deaths
+----------------------------------------------------------------
+118 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+590 generations, 77089979 iterations
+257044 cells, 98740 clones, 98247 genotypes, 42 driver genotypes
+1814706 matrix columns; 5921788 genotypes ever created
+575 demes (558 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 152.486542, 1.560153
+Driver diversity = 4.718882 (alpha = 93.884949, beta = 0.050262)
+Mean birth, death, mig rates = 1.691425, 1.794245, 0.001458
+Mean normal birth, death rates = 0.900000, 0.013382
+----------------------------------------------------------------
+4021963 births, 3989541 deaths, 5808 migrations, 764429 mutations
+344678 normal cell births, 377098 normal cell deaths
+----------------------------------------------------------------
+138 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+600 generations, 87132548 iterations
+291510 cells, 112783 clones, 112284 genotypes, 53 driver genotypes
+2087892 matrix columns; 6813482 genotypes ever created
+645 demes (626 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 156.485947, 1.610298
+Driver diversity = 5.217427 (alpha = 95.652840, beta = 0.054545)
+Mean birth, death, mig rates = 1.725013, 2.085006, 0.001458
+Mean normal birth, death rates = 0.900000, 0.201332
+----------------------------------------------------------------
+4686142 births, 4651676 deaths, 6969 migrations, 891694 mutations
+335144 normal cell births, 369607 normal cell deaths
+----------------------------------------------------------------
+163 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+610 generations, 98648117 iterations
+329772 cells, 127551 clones, 126997 genotypes, 59 driver genotypes
+2402846 matrix columns; 7843184 genotypes ever created
+721 demes (701 not empty), 5 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 160.587448, 1.660095
+Driver diversity = 5.722417 (alpha = 95.417976, beta = 0.059972)
+Mean birth, death, mig rates = 1.757317, 1.889791, 0.001458
+Mean normal birth, death rates = 0.900000, 1.109334
+----------------------------------------------------------------
+5407822 births, 5369560 deaths, 8034 migrations, 1029702 mutations
+349963 normal cell births, 388224 normal cell deaths
+----------------------------------------------------------------
+193 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+620 generations, 111846525 iterations
+370163 cells, 142486 clones, 141828 genotypes, 75 driver genotypes
+2761608 matrix columns; 9022193 genotypes ever created
+811 demes (792 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 164.639023, 1.715687
+Driver diversity = 6.347248 (alpha = 95.011818, beta = 0.066805)
+Mean birth, death, mig rates = 1.789982, 2.123389, 0.001458
+Mean normal birth, death rates = 0.900000, 1.909684
+----------------------------------------------------------------
+6195744 births, 6155353 deaths, 9066 migrations, 1179009 mutations
+403462 normal cell births, 443849 normal cell deaths
+----------------------------------------------------------------
+230 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+630 generations, 126785974 iterations
+414158 cells, 159648 clones, 158912 genotypes, 81 driver genotypes
+3171815 matrix columns; 10366039 genotypes ever created
+893 demes (875 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 168.799438, 1.760183
+Driver diversity = 6.852125 (alpha = 95.242691, beta = 0.071944)
+Mean birth, death, mig rates = 1.818049, 2.368903, 0.001458
+Mean normal birth, death rates = 0.900000, 2.235376
+----------------------------------------------------------------
+7062515 births, 7018520 deaths, 10197 migrations, 1343846 mutations
+407212 normal cell births, 451202 normal cell deaths
+----------------------------------------------------------------
+273 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+640 generations, 143712469 iterations
+462174 cells, 178682 clones, 177884 genotypes, 83 driver genotypes
+3636721 matrix columns; 11894902 genotypes ever created
+1000 demes (982 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 173.284729, 1.815420
+Driver diversity = 7.374892 (alpha = 95.429375, beta = 0.077281)
+Mean birth, death, mig rates = 1.850276, 1.623415, 0.001458
+Mean normal birth, death rates = 0.900000, 2.443673
+----------------------------------------------------------------
+8035379 births, 7987363 deaths, 11706 migrations, 1528863 mutations
+427866 normal cell births, 475887 normal cell deaths
+----------------------------------------------------------------
+323 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+650 generations, 162819415 iterations
+513243 cells, 198088 clones, 197203 genotypes, 105 driver genotypes
+4162348 matrix columns; 13623363 genotypes ever created
+1101 demes (1083 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 177.581558, 1.862020
+Driver diversity = 8.003201 (alpha = 95.909294, beta = 0.083446)
+Mean birth, death, mig rates = 1.875558, 2.404319, 0.001458
+Mean normal birth, death rates = 0.900000, 0.960510
+----------------------------------------------------------------
+9090622 births, 9039553 deaths, 13139 migrations, 1728461 mutations
+462855 normal cell births, 513916 normal cell deaths
+----------------------------------------------------------------
+384 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+660 generations, 184194285 iterations
+566632 cells, 218672 clones, 217704 genotypes, 112 driver genotypes
+4753141 matrix columns; 15566757 genotypes ever created
+1206 demes (1191 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 182.056961, 1.911498
+Driver diversity = 8.610876 (alpha = 96.207428, beta = 0.089503)
+Mean birth, death, mig rates = 1.907830, 2.613689, 0.001458
+Mean normal birth, death rates = 0.900000, 1.142105
+----------------------------------------------------------------
+10219368 births, 10165979 deaths, 14990 migrations, 1943394 mutations
+468070 normal cell births, 521453 normal cell deaths
+----------------------------------------------------------------
+457 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+670 generations, 208250463 iterations
+627611 cells, 243221 clones, 242159 genotypes, 138 driver genotypes
+5420120 matrix columns; 17760226 genotypes ever created
+1338 demes (1309 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 186.638046, 1.969095
+Driver diversity = 9.225722 (alpha = 96.526657, beta = 0.095577)
+Mean birth, death, mig rates = 1.949431, 1.761760, 0.001458
+Mean normal birth, death rates = 0.900000, 0.400223
+----------------------------------------------------------------
+11526835 births, 11465856 deaths, 16855 migrations, 2193469 mutations
+501250 normal cell births, 562237 normal cell deaths
+----------------------------------------------------------------
+539 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+680 generations, 235334032 iterations
+691787 cells, 268120 clones, 266925 genotypes, 142 driver genotypes
+6173311 matrix columns; 20238555 genotypes ever created
+1465 demes (1450 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 191.351425, 2.041957
+Driver diversity = 10.061951 (alpha = 96.375893, beta = 0.104403)
+Mean birth, death, mig rates = 2.001733, 2.223806, 0.001458
+Mean normal birth, death rates = 0.900000, 1.769396
+----------------------------------------------------------------
+13009006 births, 12944830 deaths, 18755 migrations, 2478329 mutations
+532783 normal cell births, 596950 normal cell deaths
+----------------------------------------------------------------
+638 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+690 generations, 265891111 iterations
+760756 cells, 294074 clones, 292768 genotypes, 152 driver genotypes
+7022497 matrix columns; 23041586 genotypes ever created
+1614 demes (1588 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 196.194901, 2.121109
+Driver diversity = 11.220530 (alpha = 96.032013, beta = 0.116842)
+Mean birth, death, mig rates = 2.060401, 1.551746, 0.001458
+Mean normal birth, death rates = 0.900000, 1.557001
+----------------------------------------------------------------
+14729734 births, 14660765 deaths, 21435 migrations, 2803031 mutations
+548803 normal cell births, 617777 normal cell deaths
+----------------------------------------------------------------
+752 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+700 generations, 300427227 iterations
+839460 cells, 325721 clones, 324226 genotypes, 176 driver genotypes
+7987264 matrix columns; 26217753 genotypes ever created
+1767 demes (1753 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 201.158844, 2.201314
+Driver diversity = 12.217846 (alpha = 96.455170, beta = 0.126669)
+Mean birth, death, mig rates = 2.115788, 2.002597, 0.001458
+Mean normal birth, death rates = 0.900000, 0.180768
+----------------------------------------------------------------
+16690026 births, 16611322 deaths, 24560 migrations, 3176167 mutations
+578035 normal cell births, 656733 normal cell deaths
+----------------------------------------------------------------
+892 seconds elapsed
+################################################################
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+710 generations, 339523667 iterations
+924966 cells, 358674 clones, 357108 genotypes, 207 driver genotypes
+9080893 matrix columns; 29823871 genotypes ever created
+1942 demes (1922 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 206.371872, 2.279958
+Driver diversity = 12.960233 (alpha = 96.185890, beta = 0.134742)
+Mean birth, death, mig rates = 2.175057, 2.484848, 0.001458
+Mean normal birth, death rates = 0.900000, 1.627106
+----------------------------------------------------------------
+18947289 births, 18861783 deaths, 27635 migrations, 3606118 mutations
+600939 normal cell births, 686429 normal cell deaths
+----------------------------------------------------------------
+1064 seconds elapsed
+################################################################
+
+Reached max pop (1000000 cells)
+
+Seed = 36000; K = 512
+Migration type = 0, initial rate = 1.457678e-03, edge only = 0
+Mut rates: 0.000010 (birth), 0.000000 (mig), 0.100000 (pass)
+Mut effects: 0.100000 (birth), 0.000000 (mig), 0.000000 (pass)
+----------------------------------------------------------------
+718 generations, 377380050 iterations
+1000000 cells, 387027 clones, 385310 genotypes, 228 driver genotypes
+10138719 matrix columns; 33319730 genotypes ever created
+2096 demes (2077 not empty), 6 bintree layers
+----------------------------------------------------------------
+Mean number of passengers, drivers = 210.985764, 2.347634
+Driver diversity = 13.478512 (alpha = 95.920563, beta = 0.140517)
+Mean birth, death, mig rates = 2.222860, 3.033400, 0.001458
+Mean normal birth, death rates = 0.900000, 0.611905
+----------------------------------------------------------------
+18358099 births, 18283065 deaths, 26645 migrations, 3495859 mutations
+570099 normal cell births, 645120 normal cell deaths
+Completed in 1239 seconds.
+Exit code 0
+
+
+PS:
+
+Read file <../../all_results/20190219_caseC/log2_deme_carrying_capacity_1/migration_edge_only_0/s_driver_birth_1/seed_0//err.err> for stderr output of this job.
+
