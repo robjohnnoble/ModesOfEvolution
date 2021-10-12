@@ -443,10 +443,6 @@ plot_figure2_alt <- function (path, output_filename = NA, file_type = "png", out
     if (substr(output_dir, nchar(output_dir), nchar(output_dir)) != 
         "/") 
       output_dir <- paste0(output_dir, "/")
-  Muller_df <- muller_df_from_file(paste0(path, "driver_phylo.dat"), 
-                                   cutoff = cutoff)
-  if (class(Muller_df) != "data.frame") 
-    return(NA)
   
   image_df <- image_df_from_grid_file_alt(paste0(path, "/output_driversgrid.dat"), trim)
   output_genotype_properties <- read_delim_special(paste0(path, "/output_genotype_properties.dat"))
@@ -467,7 +463,8 @@ plot_figure2_alt <- function (path, output_filename = NA, file_type = "png", out
   dd.col <- long_palette
   names(dd.col) <- dd
   
-  muller_df <- muller_df_from_file(paste0(path, "/driver_phylo.dat"))
+  muller_df <- muller_df_from_file(paste0(path, "/driver_phylo.dat"), cutoff = cutoff)
+  if (class(muller_df) != "data.frame") return(NA)
   muller_df_filtered <- filter(muller_df, DriverIdentity %in% drivers_to_use)
   g1 <- Muller_plot(muller_df_filtered, colour_by = "Identity", palette = dd.col) +
     theme_void() + theme(legend.position = "none")
