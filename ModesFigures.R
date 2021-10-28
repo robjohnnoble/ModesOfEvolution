@@ -350,6 +350,42 @@ plot_tree(edgesC2_cutoff10pc)
 plot_tree(edgesC3_cutoff10pc)
 plot_tree(edgesC4_cutoff10pc)
 
+########### read and process simulation data:
+
+dataForMetricPlots<-read_csv("dataForMetricPlots.csv", guess_max = 1E4)
+combined_cases <- read.csv("DivMutation_Allcombined_cases.csv",sep="")
+
+InvasiveGlandular_K512_EdgeOnly0 <- subset(dataForMetricPlots, 
+                                           dataForMetricPlots$K==512 & 
+                                             dataForMetricPlots$s_driver_birth==0.1 & 
+                                             dataForMetricPlots$mu_driver_birth==10^-5) %>% 
+  mutate(case = "caseC") %>% 
+  select(Drivers, DriverDiversity, case)
+colnames(InvasiveGlandular_K512_EdgeOnly0)[which(colnames(InvasiveGlandular_K512_EdgeOnly0)=="DriverDiversity")]<-"Diversity"
+
+combined_cases$case <- as.character(combined_cases$case)
+
+combined_cases <- combined_cases %>% mutate(in_chart = ifelse((migration_type == 2 & migration_edge_only == 0 & K > 1 & s_driver_birth > 0) |
+                                                                (migration_type == 0 & normal_birth_rate == 0.9 & s_driver_birth > 0), 0.5, 0))
+
+combined_cases <- combined_cases %>% mutate(in_chart = ifelse((K == 1 & migration_type == 2 & migration_edge_only == 1)
+                                                              | (K == 2^20 & migration_type == 0 & migration_edge_only == 0 & baseline_death_rate == 0.98)
+                                                              | (K == 2^13 & migration_type == 2 & migration_edge_only == 0 & s_driver_migration == 0), 1, in_chart))
+combined_cases <- combined_cases %>% mutate(in_chart = case_when((s_driver_migration == 0.5 & s_driver_birth > 0 & migration_edge_only == 0) ~ 11, 
+                                                                 (K == 512 & migration_type == 0 & migration_edge_only == 0 & s_driver_birth > 0) ~ 12,
+                                                                 (K == 1 & migration_type == 0 & migration_edge_only == 0 & s_driver_birth > 0) ~ 13,
+                                                                 (K == 2048 & migration_type == 0 & migration_edge_only == 1 & s_driver_birth > 0) ~ 14,
+                                                                 (K == 2048 & migration_type == 2 & migration_edge_only == 0 & s_driver_birth > 0) ~ 15,
+                                                                 TRUE ~ in_chart))
+
+combined_cases <- combined_cases %>% mutate(case = case_when(s_driver_birth == 0 ~ "neutral", 
+                                                             case == "caseC" & migration_edge_only == 0 ~ "caseE",
+                                                             TRUE ~ case))
+chart_df_1 <- filter(combined_cases, in_chart == 1)
+
+DataMetricPlot_InvasiveGlandularK512<-rbind(select(chart_df_1,Drivers,Diversity, case ),
+                                            select(InvasiveGlandular_K512_EdgeOnly0,Drivers,Diversity, case ))
+
 ###########
 
 topx <- 25
@@ -394,6 +430,26 @@ ggplot() +
                   size = 2.5/2, box.padding = 0.15/1.5) +
   geom_text_repel(aes(x = n, y = D, label = tumourshort), filter(real_points, minimal == minim, dataset == "AML"), 
                   size = 2.5/2, box.padding = 0.15/1.5, col = "purple")
+
+# Figure 3c:
+ggplot() +
+  geom_ribbon(aes(x = linex, ymin = maxy, ymax = topy), curve_df, lty = 1, fill = "grey90") + 
+  geom_line(aes(x = linex, y = sweeps), curve_df, lty = 1, color = "grey") +
+  geom_line(aes(x = linex, y = toplinear_yannick), curve_df, lty = 1, color = "grey") +
+  geom_line(aes(x = linex, y = maxy), curve_df, lty = 1, color = "grey") +
+  geom_point(aes(x=Drivers+1, y=Diversity, color=as.factor(case), shape =as.factor(case)), size=2 , subset(DataMetricPlot_InvasiveGlandularK512, DataMetricPlot_InvasiveGlandularK512$case=="caseD_new" ) ) +
+  geom_point(aes(x=Drivers+1, y=Diversity, color=as.factor(case), shape =as.factor(case)), size=2 , subset(DataMetricPlot_InvasiveGlandularK512, ! DataMetricPlot_InvasiveGlandularK512$case=="caseD_new" ) ) +
+  scale_y_log10(limits = c(1, topy), name = "Clonal diversity", expand = c(0, 0)) +
+  scale_x_log10(limits = c(1, topx), name = "Mean driver mutations per cell", expand = c(0, 0)) +
+  theme_classic(base_size = 18)+
+  theme(aspect.ratio=1)+
+  guides(fill=FALSE,shape=FALSE,color= FALSE)+
+  scale_color_manual(values = c( "caseA"="red", "caseB"="yellow4", "caseC"="dodgerblue", 
+                                 "caseD_new"="chocolate", "neutral"="cyan"), name = "Oncoevotypes", 
+                     labels=c("caseA"="non-spatial", "caseB"="gland fission", "caseC"="invasive glandular", 
+                              "caseD_new"="boundary growth", "neutral"="neutral")) +
+  scale_shape_manual(values=c(0, 1, 2,3,4), name = "Oncoevotypes", labels=c("non-spatial", "gland fission", 
+                                                                            "invasive glandular", "boundary growth", "neutral"))
 
 ########
 
